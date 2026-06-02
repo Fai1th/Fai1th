@@ -1,0 +1,39 @@
+<svg width="220" height="46" viewBox="0 0 220 46" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated He/Him chip</title>
+  <desc id="desc">A monochrome animated chip reading He/Him.</desc>
+  <style>
+    .chip {
+      fill: #000000;
+      stroke: #ffffff;
+      stroke-opacity: 0.34;
+      animation: pulse 2.4s ease-in-out infinite;
+    }
+    .text {
+      fill: #ffffff;
+      font: 800 20px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: 0;
+      animation: glow 2.4s ease-in-out infinite;
+    }
+    .dash {
+      stroke: #ffffff;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-dasharray: 8 12;
+      animation: move 2s linear infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { stroke-opacity: 0.28; }
+      50% { stroke-opacity: 0.9; }
+    }
+    @keyframes glow {
+      0%, 100% { opacity: 0.78; }
+      50% { opacity: 1; }
+    }
+    @keyframes move {
+      to { stroke-dashoffset: -40; }
+    }
+  </style>
+  <rect x="2" y="2" width="216" height="42" rx="8" class="chip"/>
+  <path d="M18 35H202" class="dash" opacity="0.35"/>
+  <text x="110" y="29" text-anchor="middle" class="text">He/Him</text>
+</svg>
