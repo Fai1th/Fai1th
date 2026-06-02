@@ -5,7 +5,7 @@
 <br />
 
 <a href="https://github.com/Fai1th">
-  <img src="./visitors.svg" alt="visitors" height="30" /><img src="https://komarev.com/ghpvc/?username=Fai1th&label=&color=000000&style=for-the-badge" alt="visitor count" height="30" />
+  <img src="./visitors.svg" alt="visitors" height="28" /><img src="https://komarev.com/ghpvc/?username=Fai1th&label=&color=000000&style=for-the-badge" alt="visitor count" height="28" />
 </a>
 
 <br />
