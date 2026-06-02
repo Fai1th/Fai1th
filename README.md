@@ -1,6 +1,6 @@
 <div align="center">
 
-# `Fai1th.exe`
+<img src="./title.svg" alt="Fai1th.exe" width="70%" />
 
 `black / white / quiet interface`
 
