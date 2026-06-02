@@ -11,7 +11,7 @@
 <br />
 
 <a href="https://guns.lol/fai1th">
-  <img src="./guns-lol.svg" alt="guns.lol/fai1th" height="28" />
+  <img src="https://img.shields.io/badge/GUNS.LOL-000000?style=for-the-badge&logo=target&logoColor=white" alt="guns.lol/fai1th" />
 </a>
 <a href="https://github.com/Fai1th">
   <img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
