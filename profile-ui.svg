@@ -1,0 +1,121 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Fai1th monochrome profile interface</title>
+  <desc id="desc">A black and white GitHub profile style interface with profile panel, terminal card, status row, stack badges, and contribution graph.</desc>
+
+  <defs>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="0.44" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 1  0 1 0 0 1  0 0 1 0 1  0 0 0 0.28 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" stroke="#ffffff" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <style>
+      .bg { fill: #030303; }
+      .panel { fill: #090909; stroke: #ffffff; stroke-opacity: 0.18; }
+      .panel-2 { fill: #0f0f0f; stroke: #ffffff; stroke-opacity: 0.14; }
+      .white { fill: #ffffff; }
+      .muted { fill: #a7a7a7; }
+      .dim { fill: #686868; }
+      .stroke { stroke: #ffffff; stroke-opacity: 0.22; }
+      .thin { stroke: #ffffff; stroke-opacity: 0.12; }
+      .title { font: 700 54px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+      .mono { font: 500 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+      .small { font: 500 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+      .micro { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+      .label { font: 700 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1200" height="760"/>
+  <rect x="0" y="0" width="1200" height="760" fill="url(#grid)"/>
+  <rect x="24" y="24" width="1152" height="712" rx="18" class="panel"/>
+  <rect x="24" y="24" width="1152" height="80" rx="18" fill="#060606"/>
+  <path d="M24 104H1176" class="stroke"/>
+
+  <circle cx="64" cy="64" r="9" fill="#ffffff"/>
+  <circle cx="92" cy="64" r="9" fill="#888888"/>
+  <circle cx="120" cy="64" r="9" fill="#333333" stroke="#ffffff" stroke-opacity="0.35"/>
+  <text x="156" y="70" class="small muted">github.com/Fai1th</text>
+  <text x="1034" y="70" class="small muted">profile/readme.md</text>
+
+  <g transform="translate(58 138)">
+    <rect width="300" height="540" rx="14" class="panel-2"/>
+    <circle cx="150" cy="126" r="86" fill="#f7f7f7" filter="url(#softGlow)"/>
+    <circle cx="150" cy="126" r="78" fill="#0b0b0b"/>
+    <circle cx="150" cy="126" r="72" fill="url(#shine)" stroke="#ffffff" stroke-opacity="0.65"/>
+    <path d="M112 160 C124 116 172 98 204 62 C199 114 178 151 112 160Z" fill="#ffffff" fill-opacity="0.86"/>
+    <path d="M92 128 C128 104 164 98 214 106" stroke="#ffffff" stroke-opacity="0.23" stroke-width="10" stroke-linecap="round"/>
+    <path d="M101 177 C139 144 181 148 220 174" stroke="#ffffff" stroke-opacity="0.16" stroke-width="8" stroke-linecap="round"/>
+
+    <text x="150" y="260" text-anchor="middle" class="mono white">Fai1th</text>
+    <text x="150" y="286" text-anchor="middle" class="small muted">he / him</text>
+
+    <rect x="42" y="318" width="216" height="42" rx="7" fill="#ffffff"/>
+    <text x="150" y="345" text-anchor="middle" class="label" fill="#000000">guns.lol/fai1th</text>
+
+    <text x="42" y="406" class="small white">this profile speaks in low signal.</text>
+    <text x="42" y="452" class="small muted">followers  0</text>
+    <text x="42" y="480" class="small muted">following  1</text>
+    <path d="M42 508H258" class="thin"/>
+    <text x="42" y="542" class="micro dim">earth</text>
+  </g>
+
+  <g transform="translate(408 138)">
+    <rect width="734" height="540" rx="14" class="panel"/>
+    <text x="34" y="52" class="small white">Fai1th / README.md</text>
+    <text x="368" y="126" text-anchor="middle" class="title white">chmod +x Fai1th</text>
+    <text x="368" y="164" text-anchor="middle" class="small muted">black / white / becoming</text>
+
+    <g transform="translate(151 206)">
+      <rect x="0" y="0" width="120" height="32" rx="0" fill="#ffffff"/>
+      <text x="60" y="21" text-anchor="middle" class="label" fill="#000000">VISITORS</text>
+      <rect x="120" y="0" width="110" height="32" rx="0" fill="#000000" stroke="#ffffff" stroke-opacity="0.45"/>
+      <text x="175" y="21" text-anchor="middle" class="label white">313,567</text>
+      <rect x="252" y="0" width="132" height="32" rx="0" fill="#ffffff"/>
+      <text x="318" y="21" text-anchor="middle" class="label" fill="#000000">GUNS.LOL</text>
+      <rect x="384" y="0" width="82" height="32" rx="0" fill="#000000" stroke="#ffffff" stroke-opacity="0.45"/>
+      <text x="425" y="21" text-anchor="middle" class="label white">FAI1TH</text>
+    </g>
+
+    <rect x="58" y="278" width="618" height="112" rx="10" fill="#111111" stroke="#ffffff" stroke-opacity="0.09"/>
+    <text x="82" y="314" class="small muted">{</text>
+    <text x="106" y="314" class="small white">"alias"</text><text x="178" y="314" class="small muted">:</text><text x="198" y="314" class="small white">"Fai1th"</text><text x="276" y="314" class="small muted">,</text>
+    <text x="106" y="344" class="small white">"status"</text><text x="188" y="344" class="small muted">:</text><text x="208" y="344" class="small white">"still becoming"</text><text x="372" y="344" class="small muted">,</text>
+    <text x="106" y="374" class="small white">"msg"</text><text x="154" y="374" class="small muted">:</text><text x="174" y="374" class="small white">"identity is a process"</text>
+    <text x="82" y="402" class="small muted">}</text>
+
+    <g transform="translate(58 420)">
+      <rect x="0" y="0" width="74" height="34" rx="6" fill="#ffffff"/><text x="37" y="23" text-anchor="middle" class="label" fill="#000000">PY</text>
+      <rect x="84" y="0" width="74" height="34" rx="6" fill="#151515" stroke="#ffffff" stroke-opacity="0.2"/><text x="121" y="23" text-anchor="middle" class="label white">JS</text>
+      <rect x="168" y="0" width="74" height="34" rx="6" fill="#ffffff"/><text x="205" y="23" text-anchor="middle" class="label" fill="#000000">TS</text>
+      <rect x="252" y="0" width="92" height="34" rx="6" fill="#151515" stroke="#ffffff" stroke-opacity="0.2"/><text x="298" y="23" text-anchor="middle" class="label white">REACT</text>
+      <rect x="354" y="0" width="88" height="34" rx="6" fill="#ffffff"/><text x="398" y="23" text-anchor="middle" class="label" fill="#000000">NODE</text>
+      <rect x="452" y="0" width="74" height="34" rx="6" fill="#151515" stroke="#ffffff" stroke-opacity="0.2"/><text x="489" y="23" text-anchor="middle" class="label white">GIT</text>
+    </g>
+
+    <g transform="translate(58 492)">
+      <rect width="618" height="72" rx="8" fill="#050505" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="20" y="28" class="micro muted">contribution graph</text>
+      <g transform="translate(20 42)">
+        <rect x="0" y="0" width="12" height="12" fill="#1a1a1a"/><rect x="18" y="0" width="12" height="12" fill="#333333"/><rect x="36" y="0" width="12" height="12" fill="#ffffff"/>
+        <rect x="54" y="0" width="12" height="12" fill="#1a1a1a"/><rect x="72" y="0" width="12" height="12" fill="#555555"/><rect x="90" y="0" width="12" height="12" fill="#ffffff"/>
+        <rect x="108" y="0" width="12" height="12" fill="#2b2b2b"/><rect x="126" y="0" width="12" height="12" fill="#151515"/><rect x="144" y="0" width="12" height="12" fill="#777777"/>
+        <rect x="162" y="0" width="12" height="12" fill="#ffffff"/><rect x="180" y="0" width="12" height="12" fill="#333333"/><rect x="198" y="0" width="12" height="12" fill="#1a1a1a"/>
+        <rect x="216" y="0" width="12" height="12" fill="#555555"/><rect x="234" y="0" width="12" height="12" fill="#ffffff"/><rect x="252" y="0" width="12" height="12" fill="#1a1a1a"/>
+        <rect x="270" y="0" width="12" height="12" fill="#333333"/><rect x="288" y="0" width="12" height="12" fill="#777777"/><rect x="306" y="0" width="12" height="12" fill="#ffffff"/>
+        <rect x="324" y="0" width="12" height="12" fill="#1a1a1a"/><rect x="342" y="0" width="12" height="12" fill="#333333"/><rect x="360" y="0" width="12" height="12" fill="#555555"/>
+        <rect x="378" y="0" width="12" height="12" fill="#ffffff"/><rect x="396" y="0" width="12" height="12" fill="#777777"/><rect x="414" y="0" width="12" height="12" fill="#333333"/>
+        <rect x="432" y="0" width="12" height="12" fill="#1a1a1a"/><rect x="450" y="0" width="12" height="12" fill="#555555"/><rect x="468" y="0" width="12" height="12" fill="#ffffff"/>
+        <rect x="486" y="0" width="12" height="12" fill="#333333"/><rect x="504" y="0" width="12" height="12" fill="#1a1a1a"/><rect x="522" y="0" width="12" height="12" fill="#777777"/>
+        <rect x="540" y="0" width="12" height="12" fill="#ffffff"/><rect x="558" y="0" width="12" height="12" fill="#333333"/>
+      </g>
+    </g>
+  </g>
+</svg>
