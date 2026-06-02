@@ -1,0 +1,18 @@
+<svg width="156" height="28" viewBox="0 0 156 28" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GUNS.LOL button</title>
+  <desc id="desc">A black profile button with a purple gun icon and GUNS.LOL text.</desc>
+  <style>
+    .label {
+      fill: #ffffff;
+      font: 800 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: 0;
+    }
+  </style>
+  <rect width="156" height="28" fill="#000000"/>
+  <g transform="translate(13 6) rotate(-24 9 9)">
+    <path d="M1 8.8C1 7.5 2 6.5 3.3 6.5H22.2C23.9 6.5 25.3 7.9 25.3 9.6C25.3 11.2 24 12.5 22.4 12.6L18.7 12.8L20.5 18.4C20.9 19.6 20.2 20.9 19 21.3L15.7 22.4C14.5 22.8 13.2 22.1 12.8 20.9L10.7 14.4L7.3 17C6.2 17.8 4.7 17.6 3.9 16.5L1.5 13.4C0.8 12.5 0.6 11.3 1 10.3V8.8Z" fill="#7A4B86"/>
+    <path d="M5.4 9.2H19.2C20.1 9.2 20.2 10.3 19.4 10.7L8.1 15.2C7.3 15.5 6.5 14.9 6.7 14.1L7.7 11.2H5.4C4.6 11.2 4.6 9.2 5.4 9.2Z" fill="#000000"/>
+    <path d="M16.5 13.9L18 18.5L15.5 19.4L13.9 15.1L16.5 13.9Z" fill="#000000"/>
+  </g>
+  <text x="52" y="18" class="label">GUNS.LOL</text>
+</svg>
