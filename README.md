@@ -2,8 +2,6 @@
 
 <img src="./title.svg" alt="Fai1th.exe" width="70%" />
 
-`black / white / quiet interface`
-
 ![visitors](https://komarev.com/ghpvc/?username=Fai1th&label=visitors&color=000000&style=flat-square)
 ![status](https://img.shields.io/badge/status-still%20becoming-000000?style=flat-square&labelColor=111111)
 ![signal](https://img.shields.io/badge/signal-low%20noise-000000?style=flat-square&labelColor=111111)
@@ -17,8 +15,8 @@
 <a href="https://github.com/Fai1th">
   <img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
 </a>
-<a href="https://github.com/Fai1th/Fai1th">
-  <img src="https://img.shields.io/badge/README-000000?style=for-the-badge&logo=github&logoColor=white" alt="Profile repository" />
+<a href="https://open.spotify.com/user/31sbkq5o2viqrf5ilhq43lyg3teq">
+  <img src="https://img.shields.io/badge/SPOTIFY-000000?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify profile" />
 </a>
 
 <br />
@@ -36,11 +34,7 @@
 <br />
 <br />
 
-<kbd>he / him</kbd>
-<kbd>earth</kbd>
-<kbd>quiet pressure</kbd>
-<kbd>forward</kbd>
-<kbd>low noise</kbd>
+<img src="./pronouns.svg" alt="He/Him" width="160" />
 
 <br />
 <br />
