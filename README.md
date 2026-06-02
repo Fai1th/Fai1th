@@ -2,10 +2,9 @@
 
 <img src="./title.svg" alt="Fai1th.exe" width="70%" />
 
-![visitors](https://komarev.com/ghpvc/?username=Fai1th&label=visitors&color=000000&style=flat-square)
-![status](https://img.shields.io/badge/status-still%20becoming-000000?style=flat-square&labelColor=111111)
-![signal](https://img.shields.io/badge/signal-low%20noise-000000?style=flat-square&labelColor=111111)
-![mode](https://img.shields.io/badge/mode-black%20%2F%20white-ffffff?style=flat-square&labelColor=000000&color=ffffff)
+<img src="./visitors.svg" alt="visitors" width="180" />
+
+![visitors](https://komarev.com/ghpvc/?username=Fai1th&label=&color=000000&style=flat-square)
 
 <br />
 
