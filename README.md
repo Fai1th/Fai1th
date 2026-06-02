@@ -1,16 +1,6 @@
 <div align="center">
 
-<pre>
-+------------------------------------------------------------------+
-|                                                                  |
-|                            Fai1th                                |
-|                                                                  |
-|                    chmod +x ./becoming                           |
-|                                                                  |
-|        still learning the shape of silence inside systems        |
-|                                                                  |
-+------------------------------------------------------------------+
-</pre>
+![Fai1th profile interface](./profile-ui.svg)
 
 ![visitors](https://komarev.com/ghpvc/?username=Fai1th&label=visitors&color=000000&style=flat-square)
 ![status](https://img.shields.io/badge/status-still%20becoming-000000?style=flat-square&labelColor=111111)
@@ -34,7 +24,7 @@
 <tr>
 <td width="50%" valign="top">
 
-### /philosophy
+### `/philosophy`
 
 I like things that do not explain themselves too loudly.
 
@@ -45,7 +35,7 @@ The goal is not to look busy. The goal is to become sharper.
 </td>
 <td width="50%" valign="top">
 
-### /coordinates
+### `/coordinates`
 
 ```txt
 mindset    : quiet pressure
@@ -61,7 +51,7 @@ question   : what remains when the mask compiles?
 
 <div align="center">
 
-### /stack
+### `/stack`
 
 ![Python](https://img.shields.io/badge/python-000000?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-000000?style=flat-square&logo=javascript&logoColor=white)
@@ -70,12 +60,19 @@ question   : what remains when the mask compiles?
 ![Node.js](https://img.shields.io/badge/node.js-000000?style=flat-square&logo=node.js&logoColor=white)
 ![Git](https://img.shields.io/badge/git-000000?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/linux-000000?style=flat-square&logo=linux&logoColor=white)
+![VS Code](https://img.shields.io/badge/vs%20code-000000?style=flat-square&logo=visualstudiocode&logoColor=white)
 
-### /graph
+### `/graphs`
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Fai1th&show_icons=true&hide_border=true&bg_color=000000&title_color=FFFFFF&text_color=FFFFFF&icon_color=FFFFFF)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Fai1th&show_icons=true&hide_border=true&bg_color=000000&title_color=FFFFFF&text_color=FFFFFF&icon_color=FFFFFF&ring_color=FFFFFF)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Fai1th&layout=compact&hide_border=true&bg_color=000000&title_color=FFFFFF&text_color=FFFFFF)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Fai1th&theme=dark&hide_border=true&background=000000&stroke=FFFFFF&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=AAAAAA)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Fai1th&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&area_color=ffffff&hide_border=true&custom_title=Fai1th%20Contribution%20Graph)
+
+</div>
 
 ```txt
 +--------------------------------------------------------------+
@@ -85,5 +82,3 @@ question   : what remains when the mask compiles?
 |                                                              |
 +--------------------------------------------------------------+
 ```
-
-</div>
