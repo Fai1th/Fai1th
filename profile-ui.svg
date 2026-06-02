@@ -1,146 +1,68 @@
-<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Fai1th monochrome profile mini app</title>
-  <desc id="desc">A black and white profile mini app with a sidebar, terminal, contribution graph, stack dock, and clickable link controls.</desc>
-
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Fai1th custom contribution graph</title>
+  <desc id="desc">A monochrome custom contribution line graph for the Fai1th GitHub profile README.</desc>
   <defs>
-    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.02"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0.08"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="9" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 1  0 1 0 0 1  0 0 1 0 1  0 0 0 0.24 0"/>
-      <feBlend in="SourceGraphic"/>
-    </filter>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" stroke="#ffffff" stroke-opacity="0.045"/>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#ffffff" stroke-opacity="0.08"/>
     </pattern>
+    <linearGradient id="fade" x1="0" y1="80" x2="0" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
     <style>
-      .bg { fill: #030303; }
-      .panel { fill: #090909; stroke: #ffffff; stroke-opacity: 0.18; }
-      .panel2 { fill: #101010; stroke: #ffffff; stroke-opacity: 0.14; }
-      .panel3 { fill: #050505; stroke: #ffffff; stroke-opacity: 0.12; }
+      .bg { fill: #000000; }
       .white { fill: #ffffff; }
       .muted { fill: #a8a8a8; }
-      .dim { fill: #666666; }
-      .line { stroke: #ffffff; stroke-opacity: 0.2; }
-      .thin { stroke: #ffffff; stroke-opacity: 0.1; }
-      .title { font: 700 56px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
-      .mono { font: 600 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
-      .small { font: 500 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
-      .micro { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
-      .label { font: 800 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
-      .button rect { transition: fill 160ms ease, stroke-opacity 160ms ease; }
-      .button:hover rect { fill: #ffffff; stroke-opacity: 1; }
-      .button:hover text { fill: #000000; }
+      .dim { fill: #5f5f5f; }
+      .line { stroke: #ffffff; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke: #ffffff; stroke-opacity: 0.24; }
+      .mono { font: 700 22px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+      .small { font: 600 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+      .micro { font: 600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
     </style>
   </defs>
 
-  <rect class="bg" width="1200" height="900"/>
-  <rect width="1200" height="900" fill="url(#grid)"/>
-  <rect x="24" y="24" width="1152" height="852" rx="18" class="panel"/>
+  <rect class="bg" width="1200" height="420"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
 
-  <rect x="24" y="24" width="1152" height="78" rx="18" fill="#060606"/>
-  <path d="M24 102H1176" class="line"/>
-  <circle cx="64" cy="63" r="9" fill="#ffffff"/>
-  <circle cx="92" cy="63" r="9" fill="#858585"/>
-  <circle cx="120" cy="63" r="9" fill="#282828" stroke="#ffffff" stroke-opacity="0.35"/>
-  <text x="156" y="69" class="small muted">github.com/Fai1th/Fai1th_</text>
-  <text x="988" y="69" class="small muted">mini-app / readme</text>
+  <text x="600" y="46" text-anchor="middle" class="mono white">Fai1th's Contribution Graph</text>
+  <text x="600" y="72" text-anchor="middle" class="micro muted">black / white / quiet signal</text>
 
-  <g transform="translate(56 132)">
-    <rect width="300" height="600" rx="14" class="panel2"/>
-    <circle cx="150" cy="118" r="86" fill="#f7f7f7" filter="url(#glow)"/>
-    <circle cx="150" cy="118" r="78" fill="#0a0a0a"/>
-    <circle cx="150" cy="118" r="72" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.65"/>
-    <path d="M108 160C126 108 173 94 207 58C202 114 178 154 108 160Z" fill="#ffffff" fill-opacity="0.88"/>
-    <path d="M94 126C128 103 166 98 213 106" stroke="#ffffff" stroke-opacity="0.22" stroke-width="10" stroke-linecap="round"/>
-    <path d="M101 176C139 144 181 149 220 174" stroke="#ffffff" stroke-opacity="0.16" stroke-width="8" stroke-linecap="round"/>
+  <g transform="translate(86 90)">
+    <path d="M0 280H1040" class="thin"/>
+    <path d="M0 220H1040" class="thin"/>
+    <path d="M0 160H1040" class="thin"/>
+    <path d="M0 100H1040" class="thin"/>
+    <path d="M0 40H1040" class="thin"/>
 
-    <text x="150" y="252" text-anchor="middle" class="mono white">Fai1th</text>
-    <text x="150" y="279" text-anchor="middle" class="small muted">he / him</text>
+    <text x="-34" y="284" class="micro dim">0</text>
+    <text x="-34" y="224" class="micro dim">1</text>
+    <text x="-34" y="164" class="micro dim">2</text>
+    <text x="-34" y="104" class="micro dim">3</text>
+    <text x="-34" y="44" class="micro dim">4</text>
 
-    <a href="https://guns.lol/fai1th" target="_blank" class="button">
-      <rect x="42" y="314" width="216" height="42" rx="7" fill="#ffffff"/>
-      <text x="150" y="341" text-anchor="middle" class="label" fill="#000000">OPEN GUNS.LOL</text>
-    </a>
+    <path d="M0 280 C55 278 76 210 118 210 C168 210 166 280 210 280 C260 280 262 186 312 186 C362 186 356 280 410 280 C466 280 480 68 520 68 C560 68 570 280 620 280 C670 280 684 228 732 228 C784 228 790 280 842 280 C902 280 925 120 970 120 C1010 120 1022 204 1040 186 L1040 320 L0 320 Z" fill="url(#fade)"/>
+    <path d="M0 280 C55 278 76 210 118 210 C168 210 166 280 210 280 C260 280 262 186 312 186 C362 186 356 280 410 280 C466 280 480 68 520 68 C560 68 570 280 620 280 C670 280 684 228 732 228 C784 228 790 280 842 280 C902 280 925 120 970 120 C1010 120 1022 204 1040 186" class="line"/>
 
-    <text x="42" y="407" class="small white">this profile speaks in low signal.</text>
-    <text x="42" y="449" class="small muted">followers  0</text>
-    <text x="42" y="477" class="small muted">following  1</text>
-    <path d="M42 506H258" class="thin"/>
-    <text x="42" y="542" class="micro dim">earth</text>
-    <text x="42" y="570" class="micro dim">black / white / restraint</text>
-  </g>
-
-  <g transform="translate(394 132)">
-    <rect width="752" height="600" rx="14" class="panel"/>
-    <text x="34" y="52" class="small white">Fai1th / README.md</text>
-    <text x="376" y="126" text-anchor="middle" class="title white">chmod +x Fai1th</text>
-    <text x="376" y="164" text-anchor="middle" class="small muted">identity is a process that learned to answer</text>
-
-    <g transform="translate(120 208)">
-      <rect x="0" y="0" width="120" height="32" fill="#ffffff"/>
-      <text x="60" y="21" text-anchor="middle" class="label" fill="#000000">VISITORS</text>
-      <rect x="120" y="0" width="110" height="32" fill="#000000" stroke="#ffffff" stroke-opacity="0.45"/>
-      <text x="175" y="21" text-anchor="middle" class="label white">313,567</text>
-      <rect x="252" y="0" width="132" height="32" fill="#ffffff"/>
-      <text x="318" y="21" text-anchor="middle" class="label" fill="#000000">GUNS.LOL</text>
-      <rect x="384" y="0" width="112" height="32" fill="#000000" stroke="#ffffff" stroke-opacity="0.45"/>
-      <text x="440" y="21" text-anchor="middle" class="label white">FAI1TH</text>
+    <g class="white">
+      <circle cx="0" cy="280" r="8"/>
+      <circle cx="118" cy="210" r="8"/>
+      <circle cx="210" cy="280" r="8"/>
+      <circle cx="312" cy="186" r="8"/>
+      <circle cx="410" cy="280" r="8"/>
+      <circle cx="520" cy="68" r="8"/>
+      <circle cx="620" cy="280" r="8"/>
+      <circle cx="732" cy="228" r="8"/>
+      <circle cx="842" cy="280" r="8"/>
+      <circle cx="970" cy="120" r="8"/>
+      <circle cx="1040" cy="186" r="8"/>
     </g>
 
-    <rect x="56" y="282" width="640" height="118" rx="10" fill="#111111" stroke="#ffffff" stroke-opacity="0.1"/>
-    <text x="82" y="318" class="small muted">{</text>
-    <text x="108" y="318" class="small white">"alias"</text><text x="180" y="318" class="small muted">:</text><text x="200" y="318" class="small white">"Fai1th"</text><text x="278" y="318" class="small muted">,</text>
-    <text x="108" y="348" class="small white">"mode"</text><text x="168" y="348" class="small muted">:</text><text x="188" y="348" class="small white">"quiet interface"</text><text x="366" y="348" class="small muted">,</text>
-    <text x="108" y="378" class="small white">"state"</text><text x="178" y="378" class="small muted">:</text><text x="198" y="378" class="small white">"still becoming"</text>
-    <text x="82" y="406" class="small muted">}</text>
-
-    <g transform="translate(56 438)">
-      <rect width="640" height="122" rx="10" class="panel3"/>
-      <text x="22" y="30" class="micro muted">activity stream</text>
-      <path d="M22 88 C82 30 132 112 190 68 S302 18 366 72 488 110 618 34" stroke="#ffffff" stroke-width="3" fill="none"/>
-      <circle cx="22" cy="88" r="5" class="white"/>
-      <circle cx="190" cy="68" r="5" class="white"/>
-      <circle cx="366" cy="72" r="5" class="white"/>
-      <circle cx="618" cy="34" r="5" class="white"/>
-      <path d="M22 102H618" class="thin"/>
-      <text x="22" y="114" class="micro dim">signal</text>
-      <text x="560" y="114" class="micro dim">motion</text>
-    </g>
-  </g>
-
-  <g transform="translate(56 760)">
-    <rect width="1088" height="82" rx="14" class="panel2"/>
-    <text x="28" y="30" class="micro muted">bottom dock</text>
-
-    <a href="https://guns.lol/fai1th" target="_blank" class="button">
-      <rect x="28" y="42" width="134" height="28" rx="6" fill="#141414" stroke="#ffffff" stroke-opacity="0.22"/>
-      <text x="95" y="61" text-anchor="middle" class="label white">GUNS.LOL</text>
-    </a>
-
-    <a href="https://github.com/Fai1th" target="_blank" class="button">
-      <rect x="174" y="42" width="118" height="28" rx="6" fill="#141414" stroke="#ffffff" stroke-opacity="0.22"/>
-      <text x="233" y="61" text-anchor="middle" class="label white">GITHUB</text>
-    </a>
-
-    <g transform="translate(320 42)">
-      <rect x="0" y="0" width="54" height="28" rx="6" fill="#ffffff"/><text x="27" y="19" text-anchor="middle" class="label" fill="#000000">PY</text>
-      <rect x="62" y="0" width="54" height="28" rx="6" fill="#141414" stroke="#ffffff" stroke-opacity="0.22"/><text x="89" y="19" text-anchor="middle" class="label white">JS</text>
-      <rect x="124" y="0" width="54" height="28" rx="6" fill="#ffffff"/><text x="151" y="19" text-anchor="middle" class="label" fill="#000000">TS</text>
-      <rect x="186" y="0" width="78" height="28" rx="6" fill="#141414" stroke="#ffffff" stroke-opacity="0.22"/><text x="225" y="19" text-anchor="middle" class="label white">REACT</text>
-      <rect x="272" y="0" width="70" height="28" rx="6" fill="#ffffff"/><text x="307" y="19" text-anchor="middle" class="label" fill="#000000">NODE</text>
-    </g>
-
-    <g transform="translate(700 25)">
-      <text x="0" y="10" class="micro muted">mini contribution map</text>
-      <rect x="0" y="22" width="10" height="10" fill="#191919"/><rect x="16" y="22" width="10" height="10" fill="#444444"/><rect x="32" y="22" width="10" height="10" fill="#ffffff"/><rect x="48" y="22" width="10" height="10" fill="#222222"/>
-      <rect x="64" y="22" width="10" height="10" fill="#777777"/><rect x="80" y="22" width="10" height="10" fill="#ffffff"/><rect x="96" y="22" width="10" height="10" fill="#333333"/><rect x="112" y="22" width="10" height="10" fill="#161616"/>
-      <rect x="128" y="22" width="10" height="10" fill="#ffffff"/><rect x="144" y="22" width="10" height="10" fill="#555555"/><rect x="160" y="22" width="10" height="10" fill="#222222"/><rect x="176" y="22" width="10" height="10" fill="#ffffff"/>
-      <rect x="192" y="22" width="10" height="10" fill="#333333"/><rect x="208" y="22" width="10" height="10" fill="#777777"/><rect x="224" y="22" width="10" height="10" fill="#ffffff"/><rect x="240" y="22" width="10" height="10" fill="#222222"/>
-      <text x="276" y="32" class="micro dim">alive</text>
-    </g>
+    <text x="0" y="316" text-anchor="middle" class="micro muted">01</text>
+    <text x="210" y="316" text-anchor="middle" class="micro muted">07</text>
+    <text x="410" y="316" text-anchor="middle" class="micro muted">13</text>
+    <text x="620" y="316" text-anchor="middle" class="micro muted">19</text>
+    <text x="842" y="316" text-anchor="middle" class="micro muted">25</text>
+    <text x="1040" y="316" text-anchor="middle" class="micro muted">31</text>
   </g>
 </svg>
