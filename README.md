@@ -2,9 +2,11 @@
 
 <img src="./title.svg" alt="Fai1th.exe" width="70%" />
 
-<img src="./visitors.svg" alt="visitors" width="180" />
+<br />
 
-![visitors](https://komarev.com/ghpvc/?username=Fai1th&label=&color=000000&style=flat-square)
+<a href="https://github.com/Fai1th">
+  <img src="./visitors.svg" alt="visitors" height="30" /><img src="https://komarev.com/ghpvc/?username=Fai1th&label=&color=000000&style=for-the-badge" alt="visitor count" height="30" />
+</a>
 
 <br />
 
