@@ -2,6 +2,7 @@
   <title id="title">Animated He/Him chip</title>
   <desc id="desc">A monochrome animated chip reading He/Him.</desc>
   <style>
+    /* black / white / quiet signal */
     .chip {
       fill: #000000;
       stroke: #ffffff;
@@ -11,16 +12,17 @@
     .text {
       fill: #ffffff;
       font: 800 20px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      letter-spacing: 0;
       animation: glow 2.4s ease-in-out infinite;
     }
-    .dash {
+    .scan {
       stroke: #ffffff;
       stroke-width: 2;
       stroke-linecap: round;
       stroke-dasharray: 8 12;
-      animation: move 2s linear infinite;
+      stroke-opacity: 0.35;
+      animation: scan 2.6s linear infinite;
     }
+
     @keyframes pulse {
       0%, 100% { stroke-opacity: 0.28; }
       50% { stroke-opacity: 0.9; }
@@ -29,11 +31,16 @@
       0%, 100% { opacity: 0.78; }
       50% { opacity: 1; }
     }
-    @keyframes move {
+    @keyframes scan {
       to { stroke-dashoffset: -40; }
     }
+
+    @media (prefers-reduced-motion: reduce) {
+      .chip, .text, .scan { animation: none; }
+    }
   </style>
-  <rect x="2" y="2" width="216" height="42" rx="8" class="chip"/>
-  <path d="M18 35H202" class="dash" opacity="0.35"/>
-  <text x="110" y="29" text-anchor="middle" class="text">He/Him</text>
+
+  <rect x="1.5" y="1.5" width="217" height="43" rx="8" class="chip"/>
+  <path d="M18 35H202" class="scan"/>
+  <text x="110" y="28" text-anchor="middle" class="text">He/Him</text>
 </svg>

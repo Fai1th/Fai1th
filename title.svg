@@ -2,42 +2,55 @@
   <title id="title">Animated Fai1th.exe title</title>
   <desc id="desc">A monochrome animated terminal title reading Fai1th.exe with a blinking cursor.</desc>
   <style>
+    /* black / white / quiet signal */
     .bg { fill: #000000; }
+    .frame { fill: none; stroke: #ffffff; stroke-opacity: 0.14; }
+
     .text {
       fill: #ffffff;
       font: 800 58px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      letter-spacing: 0;
-      filter: drop-shadow(0 0 8px rgba(255,255,255,0.28));
+      filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.28));
     }
     .sub {
       fill: #a8a8a8;
       font: 600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      letter-spacing: 0;
     }
-    .scan { stroke: #ffffff; stroke-opacity: 0.18; stroke-width: 2; }
-    .cursor {
-      fill: #ffffff;
-      animation: blink 1s steps(1, end) infinite;
+
+    /* The cursor rides inside the text run so it stays glued to the last glyph,
+       whichever monospace font the reader actually has. */
+    .cursor { animation: blink 1.06s steps(1, end) infinite; }
+
+    .scan {
+      stroke: #ffffff;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-dasharray: 10 16;
+      stroke-opacity: 0.18;
+      animation: scan 2.6s linear infinite;
     }
-    .pulse {
-      animation: pulse 2.8s ease-in-out infinite;
-      transform-origin: center;
-    }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; }
+
     @keyframes blink {
       0%, 49% { opacity: 1; }
       50%, 100% { opacity: 0; }
+    }
+    @keyframes scan {
+      to { stroke-dashoffset: -52; }
     }
     @keyframes pulse {
       0%, 100% { opacity: 0.72; }
       50% { opacity: 1; }
     }
+
+    @media (prefers-reduced-motion: reduce) {
+      .cursor, .pulse, .scan { animation: none; }
+    }
   </style>
 
   <rect class="bg" width="720" height="110" rx="12"/>
+  <rect class="frame" x="0.5" y="0.5" width="719" height="109" rx="11.5"/>
+
+  <text x="360" y="64" text-anchor="middle" class="text pulse">Fai1th.exe<tspan class="cursor">█</tspan></text>
   <path class="scan" d="M40 84H680"/>
-  <g class="pulse">
-    <text x="360" y="65" text-anchor="middle" class="text">Fai1th.exe</text>
-  </g>
-  <rect x="568" y="24" width="26" height="54" rx="2" class="cursor"/>
-  <text x="360" y="96" text-anchor="middle" class="sub">chmod +x ./becoming</text>
+  <text x="360" y="100" text-anchor="middle" class="sub">chmod +x ./becoming</text>
 </svg>

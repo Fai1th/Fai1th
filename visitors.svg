@@ -2,6 +2,7 @@
   <title id="title">Animated visitors label</title>
   <desc id="desc">A monochrome animated visitors label.</desc>
   <style>
+    /* black / white / quiet signal */
     .box {
       fill: #000000;
       stroke: #ffffff;
@@ -11,20 +12,20 @@
     .text {
       fill: #ffffff;
       font: 800 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      letter-spacing: 0;
     }
     .dot {
       fill: #ffffff;
-      animation: blink 1.1s steps(1, end) infinite;
+      animation: blink 1.06s steps(1, end) infinite;
     }
     .scan {
       stroke: #ffffff;
       stroke-width: 1.5;
       stroke-linecap: round;
       stroke-dasharray: 10 16;
-      animation: move 2s linear infinite;
-      opacity: 0.32;
+      stroke-opacity: 0.32;
+      animation: scan 2.6s linear infinite;
     }
+
     @keyframes pulse {
       0%, 100% { stroke-opacity: 0.24; }
       50% { stroke-opacity: 0.9; }
@@ -33,12 +34,19 @@
       0%, 49% { opacity: 1; }
       50%, 100% { opacity: 0; }
     }
-    @keyframes move {
+    @keyframes scan {
       to { stroke-dashoffset: -52; }
     }
+
+    @media (prefers-reduced-motion: reduce) {
+      .box, .dot, .scan { animation: none; }
+    }
   </style>
-  <rect x="1" y="1" width="141" height="26" rx="0" class="box"/>
-  <path d="M12 22H130" class="scan"/>
-  <text x="62" y="18" text-anchor="middle" class="text">VISITORS</text>
-  <circle cx="116" cy="14" r="3" class="dot"/>
+
+  <!-- half-pixel inset so the 1px stroke lands inside the viewBox instead of
+       being clipped against the right and bottom edges -->
+  <rect x="0.5" y="0.5" width="141" height="27" class="box"/>
+  <path d="M14 22H128" class="scan"/>
+  <text x="63" y="18" text-anchor="middle" class="text">VISITORS</text>
+  <circle cx="107" cy="13.5" r="3" class="dot"/>
 </svg>

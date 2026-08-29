@@ -1,0 +1,49 @@
+name: contribution graph
+
+on:
+  schedule:
+    # every 6 hours, offset off the hour so we aren't queued with everyone else
+    - cron: "17 */6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate-contribution-graph.mjs
+      - .github/workflows/contribution-graph.yml
+  workflow_dispatch:
+
+# Only one regeneration at a time; a queued run would just fight over the commit.
+concurrency:
+  group: contribution-graph
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Render profile-ui.svg
+        env:
+          # The default token is enough for the public contribution calendar.
+          # Swap in a PAT with read:user if you want private contributions counted.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-contribution-graph.mjs --user "${{ github.repository_owner }}"
+
+      - name: Commit if the graph moved
+        run: |
+          if git diff --quiet -- profile-ui.svg; then
+            echo "no change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-ui.svg
+          git commit -m "chore: refresh contribution graph"
+          git push

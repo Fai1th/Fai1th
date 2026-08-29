@@ -40,6 +40,9 @@
 <br />
 <br />
 
-<img src="./profile-ui.svg" alt="Fai1th custom contribution graph" width="100%" />
+<!-- profile-ui.svg is generated from live contribution data by
+     scripts/generate-contribution-graph.mjs, on the schedule in
+     .github/workflows/contribution-graph.yml. Don't hand-edit it. -->
+<img src="./profile-ui.svg" alt="Fai1th's contribution graph — the last year of activity" width="100%" />
 
 </div>
