@@ -5,13 +5,14 @@
 <br />
 
 <a href="https://github.com/Fai1th">
-  <img src="./visitors.svg" alt="visitors" height="28" /><img src="https://komarev.com/ghpvc/?username=Fai1th&label=&color=000000&style=for-the-badge" alt="visitor count" height="28" />
+  <img src="./visitors.svg" alt="visitors" height="28" />
+  <img src="https://komarev.com/ghpvc/?username=Fai1th&label=&color=000000&style=for-the-badge" alt="visitor count" height="28" />
 </a>
 
 <br />
 
 <a href="https://guns.lol/fai1th">
-  <img src="https://img.shields.io/badge/GUNS.LOL-000000?style=for-the-badge&logo=target&logoColor=white" alt="guns.lol/fai1th" />
+  <img src="./guns-lol.svg" alt="guns.lol/fai1th" height="28" />
 </a>
 <a href="https://github.com/Fai1th">
   <img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
