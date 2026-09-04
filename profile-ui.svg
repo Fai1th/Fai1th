@@ -1,6 +1,6 @@
 <svg width="1200" height="460" viewBox="0 0 1200 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="graph-title graph-desc">
   <title id="graph-title">Fai1th's Contribution Graph</title>
-  <desc id="graph-desc">71 contributions · 31 Aug 2025 → 3 Sep 2026. Longest streak 2 days, best day 36 contributions on 2 Jun 2026.</desc>
+  <desc id="graph-desc">71 contributions · 31 Aug 2025 → 4 Sep 2026. Longest streak 2 days, best day 36 contributions on 2 Jun 2026.</desc>
 
   <defs>
     <pattern id="grid-lines" width="42" height="42" patternUnits="userSpaceOnUse">
@@ -100,7 +100,7 @@
   <rect class="frame" x="0.5" y="0.5" width="1199" height="459" rx="13.5"/>
 
   <text x="600" y="48" text-anchor="middle" class="h1 white">Fai1th's Contribution Graph<tspan class="caret">█</tspan></text>
-  <text x="600" y="72" text-anchor="middle" class="sub muted">71 contributions · 31 Aug 2025 → 3 Sep 2026</text>
+  <text x="600" y="72" text-anchor="middle" class="sub muted">71 contributions · 31 Aug 2025 → 4 Sep 2026</text>
   <path class="rule" d="M52 92.5H1148"/>
 
   <g class="micro dim">
@@ -176,9 +176,9 @@
     <g class="wk w49"><rect class="c l0" x="1074" y="134" width="15" height="15" rx="3"/><rect class="c l0" x="1074" y="154" width="15" height="15" rx="3"/><rect class="c l0" x="1074" y="174" width="15" height="15" rx="3"/><rect class="c l0" x="1074" y="194" width="15" height="15" rx="3"/><rect class="c l0" x="1074" y="214" width="15" height="15" rx="3"/><rect class="c l0" x="1074" y="234" width="15" height="15" rx="3"/><rect class="c l3" x="1074" y="254" width="15" height="15" rx="3"><title>10 contributions on 15 Aug 2026</title></rect></g>
     <g class="wk w50"><rect class="c l0" x="1094" y="134" width="15" height="15" rx="3"/><rect class="c l0" x="1094" y="154" width="15" height="15" rx="3"/><rect class="c l0" x="1094" y="174" width="15" height="15" rx="3"/><rect class="c l1" x="1094" y="194" width="15" height="15" rx="3"><title>1 contribution on 19 Aug 2026</title></rect><rect class="c l0" x="1094" y="214" width="15" height="15" rx="3"/><rect class="c l0" x="1094" y="234" width="15" height="15" rx="3"/><rect class="c l0" x="1094" y="254" width="15" height="15" rx="3"/></g>
     <g class="wk w51"><rect class="c l0" x="1114" y="134" width="15" height="15" rx="3"/><rect class="c l0" x="1114" y="154" width="15" height="15" rx="3"/><rect class="c l0" x="1114" y="174" width="15" height="15" rx="3"/><rect class="c l0" x="1114" y="194" width="15" height="15" rx="3"/><rect class="c l0" x="1114" y="214" width="15" height="15" rx="3"/><rect class="c l0" x="1114" y="234" width="15" height="15" rx="3"/><rect class="c l2" x="1114" y="254" width="15" height="15" rx="3"><title>4 contributions on 29 Aug 2026</title></rect></g>
-    <g class="wk w52"><rect class="c l0" x="1134" y="134" width="15" height="15" rx="3"/><rect class="c l0" x="1134" y="154" width="15" height="15" rx="3"/><rect class="c l0" x="1134" y="174" width="15" height="15" rx="3"/><rect class="c l0" x="1134" y="194" width="15" height="15" rx="3"/><rect class="c l0" x="1134" y="214" width="15" height="15" rx="3"/></g>
+    <g class="wk w52"><rect class="c l0" x="1134" y="134" width="15" height="15" rx="3"/><rect class="c l0" x="1134" y="154" width="15" height="15" rx="3"/><rect class="c l0" x="1134" y="174" width="15" height="15" rx="3"/><rect class="c l0" x="1134" y="194" width="15" height="15" rx="3"/><rect class="c l0" x="1134" y="214" width="15" height="15" rx="3"/><rect class="c l0" x="1134" y="234" width="15" height="15" rx="3"/></g>
   </g>
-  <rect class="today" x="1133" y="213" width="17" height="17" rx="4"/>
+  <rect class="today" x="1133" y="233" width="17" height="17" rx="4"/>
   <g clip-path="url(#grid-clip)">
     <rect class="sweep" x="-166" y="134" width="260" height="135" fill="url(#sweep-fade)"/>
   </g>
@@ -205,5 +205,5 @@
   <circle class="peak" cx="881.5" cy="356" r="4.5"/>
 
   <text x="52" y="450" class="micro dim">black / white / quiet signal</text>
-  <text x="1148" y="450" text-anchor="end" class="micro dim">generated 2026-09-03 · refreshed every 6h</text>
+  <text x="1148" y="450" text-anchor="end" class="micro dim">generated 2026-09-04 · refreshed every 6h</text>
 </svg>
