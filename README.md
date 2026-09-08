@@ -3,19 +3,11 @@
 <img src="./title.svg" alt="Fai1th.exe" width="70%" />
 
 <br />
-
-<a href="https://github.com/Fai1th">
-  <img src="./visitors.svg" alt="visitors" height="28" />
-  <img src="https://komarev.com/ghpvc/?username=Fai1th&label=&color=000000&style=for-the-badge" alt="visitor count" height="28" />
-</a>
-
 <br />
 
-<a href="https://guns.lol/fai1th">
-  <img src="./guns-lol.svg" alt="guns.lol/fai1th" height="28" />
-</a>
-<a href="https://github.com/Fai1th">
-  <img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
+<img src="./pronouns.svg" alt="He/Him" height="28" />
+<a href="https://fai1th.com">
+  <img src="https://img.shields.io/badge/WEBSITE-000000?style=for-the-badge&logo=safari&logoColor=white" alt="fai1th.com" />
 </a>
 <a href="https://open.spotify.com/user/31sbkq5o2viqrf5ilhq43lyg3teq">
   <img src="https://img.shields.io/badge/SPOTIFY-000000?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify profile" />
@@ -25,18 +17,10 @@
 <br />
 
 ![Python](https://img.shields.io/badge/python-000000?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-000000?style=flat-square&logo=javascript&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-000000?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-000000?style=flat-square&logo=javascript&logoColor=white)
 ![React](https://img.shields.io/badge/react-000000?style=flat-square&logo=react&logoColor=white)
 ![Node.js](https://img.shields.io/badge/node.js-000000?style=flat-square&logo=node.js&logoColor=white)
-![Git](https://img.shields.io/badge/git-000000?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/linux-000000?style=flat-square&logo=linux&logoColor=white)
-![VS Code](https://img.shields.io/badge/vs%20code-000000?style=flat-square&logo=visualstudiocode&logoColor=white)
-
-<br />
-<br />
-
-<img src="./pronouns.svg" alt="He/Him" width="160" />
 
 <br />
 <br />
