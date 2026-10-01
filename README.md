@@ -1,31 +1,17 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="Two sculptural hands reaching toward one another, rendered in black-and-white stipple and pixels." width="100%" />
+  <img src="./assets/nazuna-wave.png" alt="Nazuna with a monochrome wave illustration, cropped from the supplied artwork." width="100%" />
 </p>
-
-<h1 align="center">Hi, I'm Fai1th.</h1>
-
-<p align="center">Web development &middot; Automation &middot; Personal projects</p>
 
 <p align="center">
-  <a href="https://fai1th.com">Website</a>
-  &nbsp;&middot;&nbsp;
-  <a href="https://open.spotify.com/user/31sbkq5o2viqrf5ilhq43lyg3teq">Spotify</a>
+  <img src="./assets/icons/python.svg" alt="Python" title="Python" width="40" height="40" />&nbsp;
+  <img src="./assets/icons/typescript.svg" alt="TypeScript" title="TypeScript" width="40" height="40" />&nbsp;
+  <img src="./assets/icons/javascript.svg" alt="JavaScript" title="JavaScript" width="40" height="40" />&nbsp;
+  <img src="./assets/icons/react.svg" alt="React" title="React" width="40" height="40" />&nbsp;
+  <img src="./assets/icons/nodedotjs.svg" alt="Node.js" title="Node.js" width="40" height="40" />
 </p>
 
-## About
-
-I build web interfaces and automation tools with Python and JavaScript. I like making things I can use myself, from personal assistants to small apps that simplify everyday tasks.
-
-I'm interested in how software feels to use: clear interfaces, thoughtful details, and less friction between an idea and a working tool.
-
-## What I'm working on
-
-- Web projects with React and TypeScript.
-- Automation for repetitive tasks and personal workflows.
-- Experiments with voice interfaces and personal assistants.
-
-## Tools
-
-**Languages:** Python, TypeScript, JavaScript
-
-**Web:** React, Node.js
+<p align="center">
+  <a href="https://fai1th.com" title="Website"><img src="./assets/icons/website.svg" alt="Website" width="32" height="32" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Fai1th?tab=repositories" title="GitHub repositories"><img src="./assets/icons/github.svg" alt="GitHub repositories" width="32" height="32" /></a>
+</p>
