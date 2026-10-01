@@ -6,6 +6,7 @@ from PIL import Image, ImageOps
 
 root = Path(__file__).resolve().parent.parent
 source = ImageOps.autocontrast(Image.open(root / 'assets/nazuna-wave.png').convert('L'), cutoff=0.4)
+source = source.crop((0, 0, source.width, 320))
 source = source.point(lambda value: max(0, min(255, round((value - 18) * 1.3))))
 columns, cell_width, cell_height = 216, 5, 6
 rows = round(source.height / source.width * columns * cell_width / cell_height)
@@ -56,6 +57,13 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}"
 {''.join(elements)}
 </g></svg>
 '''
-(root / 'assets/nazuna-ascii.svg').write_text(svg, encoding='utf-8')
-(root / 'assets/nazuna-ascii.txt').write_text('\n'.join(lines) + '\n', encoding='utf-8')
+text_columns = 80
+text_rows = round(source.height / source.width * text_columns * 0.6)
+text_sample = source.resize((text_columns, text_rows), Image.Resampling.LANCZOS)
+density = ' .:-=+*#%@'
+text_lines = []
+for y in range(text_rows):
+    text_lines.append(''.join(density[round(text_sample.getpixel((x, y)) / 255 * (len(density)-1))] for x in range(text_columns)).rstrip())
+(root / 'assets/nazuna-ascii.svg').write_text(svg, encoding='utf-8', newline='\n')
+(root / 'assets/nazuna-ascii.txt').write_text('\n'.join(text_lines) + '\n', encoding='utf-8', newline='\n')
 print(f'Character art: {columns} columns × {rows} rows, {width} × {height}')

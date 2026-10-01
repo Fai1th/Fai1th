@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/nazuna-ascii.svg" alt="Nazuna standing in front of a curling wave, rendered entirely with visible code characters." width="100%" />
+  <img src="./assets/nazuna-ascii.svg" alt="Nazuna and a curling wave in a compact landscape composition, rendered with code characters." width="720" />
   <br />
   <sub><a href="./assets/nazuna-ascii.txt">View character source</a></sub>
 </p>
