@@ -52,7 +52,7 @@ for y in range(fine_rows):
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" role="img" aria-labelledby="art-title art-desc">
 <title id="art-title">Nazuna and the wave, in characters</title>
 <desc id="art-desc">The supplied Nazuna illustration translated into visible monospace digits. Every mark is a text character.</desc>
-<rect width="{width}" height="{height}" fill="#000000"/>
+<rect width="{width}" height="{height}" fill="#0d1117"/>
 <g font-family="Consolas, Courier New, monospace" font-size="8" font-weight="700" xml:space="preserve">
 {''.join(elements)}
 </g></svg>
