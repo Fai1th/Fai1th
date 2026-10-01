@@ -6,16 +6,6 @@
   <img src="./assets/fai1th-logo.png" alt="Fai1th" width="320" />
 </p>
 
-## Featured work
-
-### [Fai1thful OS](https://github.com/Fai1th/Fai1thful-OS)
-
-A Windows control center with live system telemetry, storage cleanup, and app management. Built with Tauri, Rust, React, and TypeScript.
-
-- CPU, memory, disk, and network monitoring.
-- Storage cleanup with a scan and review before deletion.
-- Application launchers and Windows settings tools.
-
 ## Stack
 
 <p align="center">
@@ -39,7 +29,6 @@ A Windows control center with live system telemetry, storage cleanup, and app ma
 ## Links
 
 <p align="center">
-  <a href="https://fai1th.com"><img src="./assets/icons/website.svg" alt="" width="28" height="28" /> Website</a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Fai1th?tab=repositories"><img src="./assets/icons/github.svg" alt="" width="28" height="28" /> Repositories</a>
+  <a href="https://fai1th.com" title="Website"><img src="./assets/links/website.svg" alt="Website" width="144" height="40" /></a>&nbsp;
+  <a href="https://github.com/Fai1th?tab=repositories" title="Repositories"><img src="./assets/links/repositories.svg" alt="Repositories" width="144" height="40" /></a>
 </p>
