@@ -26,5 +26,5 @@
 
 <p align="center">
   <a href="https://fai1th.com" title="Website"><img src="./assets/links/website.svg" alt="Website" width="144" height="40" /></a>&nbsp;
-  <a href="https://guns.lol/fai1th" title="guns.lol"><img src="./assets/links/guns-lol-button.svg" alt="guns.lol" width="144" height="40" /></a>
+  <a href="https://guns.lol/fai1th" title="Guns.lol"><img src="./assets/links/guns-lol-button-icon.svg" alt="Guns.lol" width="144" height="40" /></a>
 </p>
