@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/fai1th-logo.svg?v=2" alt="Fai1th" width="640" />
+  <img src="./assets/fai1th-logo.svg?v=3" alt="Fai1th" width="640" />
 </p>
 
 ## Stack
@@ -26,5 +26,5 @@
 
 <p align="center">
   <a href="https://fai1th.com" title="Website"><img src="./assets/links/website.svg" alt="Website" width="144" height="40" /></a>&nbsp;
-  <a href="https://guns.lol/fai1th" title="guns.lol"><img src="./assets/links/guns-lol.svg" alt="guns.lol" width="40" height="40" /></a>
+  <a href="https://guns.lol/fai1th" title="guns.lol"><img src="./assets/links/guns-lol.svg?v=2" alt="guns.lol" width="144" height="40" /></a>
 </p>
