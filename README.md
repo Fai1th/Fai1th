@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="./assets/nazuna-ascii.svg" alt="Nazuna and a curling wave, rendered with code characters." width="100%" />
-</p>
-
-<p align="center">
-  <img src="./assets/fai1th-logo.png" alt="Fai1th" width="320" />
+  <img src="./assets/fai1th-logo.svg" alt="Fai1th" width="320" />
 </p>
 
 ## Stack
